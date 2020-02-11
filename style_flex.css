@@ -1,0 +1,19 @@
+
+.container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: stretch;
+	height: 500px;
+	border: 1px solid red;
+	padding: 5px;
+	margin: 5px;
+}
+
+.item {
+	width: 250px;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid grey;
+	background-color: blue;
+}
