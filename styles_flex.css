@@ -11,8 +11,8 @@ body {
 	border: 1px dashed red;
 	padding: 5px;
 	margin: 5px;
-}
-*/
+}*/
+
 
 .menuitem a {
 	text-decoration: none;
@@ -24,13 +24,7 @@ body {
 	border: 1px solid #333300;
 	padding: 5px;
 	margin: 5px;
-	float: left;
 	text-align: center;
-}
-
-.navbar {
-	/*background-color: grey;*/
-	overflow: hidden;
 }
 
 .thumbnail img {
@@ -46,22 +40,40 @@ body {
 	float: left;
 }
 
-.sidebar {
-	float: right;
-	width: 350px;
-}
-
-.main {
-	overflow: hidden;
-}
-
 .sidebar, .main, .article {
 	margin: 15px;
 	padding: 15px;
 }
 
+/*flex container*/
+.container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+/*flex item*/
+.sidebar {
+	/*float: right;*/
+	order: 1;
+	width: 350px;
+}
+
+.main {
+	/*overflow: hidden;*/
+	order: 0;
+}
 
 
+.navbar {
+	/*background-color: grey;*/
+	/*overflow: hidden;*/
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+}
 
 
 

@@ -1,15 +1,116 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>Flex-based Layout</title>
-	<link rel="stylesheet" href="style_flex.css" />
-</head>
-<body>
-	<div class="container">
-		
-		<div class="item" style="flex-grow: 4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem laboriosam, voluptate aperiam minus nobis cupiditate earum sit amet quaerat qui, omnis inventore perferendis? Dicta ut suscipit facere voluptates ipsam.</div>
-		<div class="item" style="flex-grow: 1;max-width: 250px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem laboriosam, voluptate aperiam minus nobis cupiditate earum sit amet quaerat qui, omnis inventore perferendis? Dicta ut suscipit facere voluptates ipsam.</div>
-	</div>
-</body>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<title>Layout Page</title>
+		<link rel="stylesheet" href="styles_flex.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="sidebar">
+				<div class="panel">
+					<div class="panel_head">
+						<h3>Search</h3>
+					</div>
+					<div class="panel_body">
+						<input type="text" />
+					</div>
+				</div>
+				<div class="panel">
+					<div class="panel_head">
+						<h3>About</h3>
+					</div>
+					<div class="panel_body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, aspernatur aperiam. Omnis voluptatum inventore accusantium, ipsum molestiae soluta, ea fugit alias enim est qui repellendus tenetur impedit esse labore at.
+					</div>
+				</div>
+				<div class="panel">
+					<div class="panel_head">
+						<h3>Categories</h3>
+					</div>
+					<div class="panel_body">
+						<ul>
+							<li><a href="#cat1">Category 1</a></li>
+							<li><a href="#cat2">Category 2</a></li>
+							<li><a href="#cat3">Category 3</a></li>
+							<li><a href="#cat4">Category 4</a></li>
+							<li><a href="#cat5">Category 5</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="main">
+				<div class="navbar">
+					<div class="menuitem"><a href="#item1">Menu 1</a></div>
+					<div class="menuitem"><a href="#item2">Menu 2</a></div>
+					<div class="menuitem"><a href="#item3">Menu 3</a></div>
+					<div class="menuitem"><a href="#item4">Menu 4</a></div>
+					<div class="menuitem"><a href="#item5">Menu 5</a></div>
+					<div class="menuitem"><a href="#item6">Menu 6</a></div>
+				</div>
+				<div class="content">
+					<div class="article">
+						<div class="title">
+							<h2>Article 1</h2>
+						</div>
+						<div class="subtitle">
+							<span class="author">Created by Desmond</span>
+							<span class="posted_date">Posted on Feb 11, 2020</span>
+							<span class="categories">CSS, HTML, Layouts</span>
+						</div>
+						<div class="body">
+							<div class="thumbnail">
+								<img src="images/tashkent.jpg" alt="" />
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+						</div>
+					</div>
+					<div class="article">
+						<div class="title">
+							<h2>Article 2</h2>
+						</div>
+						<div class="subtitle">
+							<span class="author">Created by Desmond</span>
+							<span class="posted_date">Posted on Feb 11, 2020</span>
+							<span class="categories">CSS, HTML, Layouts</span>
+						</div>
+						<div class="body">
+							<div class="thumbnail">
+								<img src="images/tashkent.jpg" alt="" />
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+						</div>
+					</div>
+					<div class="article">
+						<div class="title">
+							<h2>Article 3</h2>
+						</div>
+						<div class="subtitle">
+							<span class="author">Created by Desmond</span>
+							<span class="posted_date">Posted on Feb 11, 2020</span>
+							<span class="categories">CSS, HTML, Layouts</span>
+						</div>
+						<div class="body">
+							<div class="thumbnail">
+								<img src="images/tashkent.jpg" alt="" />
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eius temporibus mollitia eos illum atque tempore, cumque qui at fugiat, libero eligendi quod dolore. Facilis repudiandae ducimus accusamus tempora ipsum?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
